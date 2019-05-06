@@ -35,6 +35,13 @@
                 <configuration>
                     <mainClass>org.hl7.fhir.igtools.publisher.Publisher</mainClass>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
