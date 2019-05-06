@@ -1,8 +1,11 @@
+# FHIR Publisher Runner
 
-# Checking if a newer release is available
+This project is a simple Maven wrapper to run the FHIR Publisher tool. It will check if a neweer snapshot is available.
 
-mvn -DallowSnapshots=true versions:display-dependency-updates
+To run this project:
 
-
+```
+mvn exec:java
+```
 
 
