@@ -4,7 +4,7 @@ This project is a simple Maven wrapper to run the FHIR Publisher tool. It will c
 
 To run this project on Windows:
 ```
-mvnw java
+mvnw exec:java
 ```
 
 To run this project on OSX/Linux:
